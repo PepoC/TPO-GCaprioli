@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hopper - Vida y Obra</title>
+    <link rel="shortcut icon" href="./Fuentes-Íconos/redhat-brands.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Edward Hopper</h1>
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a href="index.html" >Principal</a>
+                </li>
+                <li>
+                    <a href="cuadros.html" >Cuadros</a>
+                </li>
+                <li>
+                    <a href="tabla.html" >Detalle de las obras</a>
+                </li>
+                <li>
+                    <a href="iframe.html" >Documental</a>
+                </li>
+                <li>
+                    <a href="contacto.html" >Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+    
+    <h2>Formulario de contacto</h2>
+    
+    <form action="" method="GET" id="FormContacto" name="FormContacto">
+        <label for="nombreform">Nombre:</label>
+        <input type="text" id="nombreform" name="nombreform" placeholder="Escriba su nombre aquí">
+        <br><br>
+        
+        <label for="Residencia">Lugar de Residencia</label>
+        <select name="Residencia" id="Residencia">
+            <option value="">Indique su lugar de residencia</option>
+            <option value="AMBA">AMBA</option>
+            <option value="NOA">NOA</option>
+            <option value="NEA">NEA</option>
+            <option value="CUYO">CUYO</option>
+            <option value="LITORAL">LITORAL</option>
+            <option value="PAMPA">PAMPA</option>
+            <option value="PATAGONIA">PATAGONIA</option>
+        </select>
+        <br><br>
+        <h4>Estado Civil</h4>
+        <div class = EstadoCivil><label for="Soltero/a">
+            <input type="radio" name="EstCivil" id="Soltero/a" value="Sol">Soltero/a
+        </label>
+        <label for="Casado/a">
+            <input type="radio" name="EstCivil" id="Casado/a" value="Cas">Casado/a 
+        </label>
+        <label for="radio">
+            <input type="radio" name="EstCivil" id="Divorciado/a" value="Div">Divorciado/a 
+        </label> 
+        <label for="Viudo/a">
+            <input type="radio" name="EstCivil" id="Viudo/a" value="Cas">Viudo/a 
+        </label>
+        </div>  
+        <br><br>
+        <h4>Desea recibir imágenes por email</h4>
+        <label for="SI">
+            <input type="radio" name="ImgporEmail" id="SI" value="1">SI
+        </label>
+        <label for="NO">
+            <input type="radio" name="ImgporEmail" id="NO" value="0">NO
+        </label>
+        <br>
+        <label for="Email">Email            
+        </label>
+        <input type="email" name="Email" id="Email" placeholder="Escriba su email aquí">
+        <br><br>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad" min="0" max="120" placeholder="Edad">
+        <br><br>
+        <label for="FechaNac">Fecha de Nacimiento</label>
+        <input type="date" name="FechaNac" id="FechaNac" required>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <br><br>
+    <footer>
+        <p>Las imágenes pertenecen a sus respectivos dueños. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

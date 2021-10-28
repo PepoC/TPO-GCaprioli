@@ -1,0 +1,109 @@
+*{
+    background-color: rgb(198, 227, 235) !important;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(../Fuentes-Íconos/Poppins-Medium.ttf);
+}
+
+.table{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+thead{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 10%;
+}
+
+.nav li{
+    list-style: none;
+    color: blue;
+    font-size: 1vw;
+    display: inline-block;
+    padding: 1em;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: blue;
+}
+
+.nav li a:hover{
+    background-color: white !important  ;
+}
+
+.nav li a:active{
+    color: red !important  ;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;  
+}
+
+tr{
+    font-style: italic;
+}
+
+.container1{
+    font-weight: bolder;
+    color-adjust: inherit;
+    color: rgb(5, 10, 83);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cuadro{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.Cuadros{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+box{
+    width: 40% !important;
+    height: 40% !important;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+.container{ 
+    min-height: 50%;
+    border: 2px solid black;
+    padding: 1%;
+}
+
+#calesita{
+    width: 50%;
+    height: 50%;
+    
+}
+
+.superior{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 100% !important;
+    height: 100% !important;
+*/
+}
+
+
