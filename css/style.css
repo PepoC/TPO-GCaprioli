@@ -69,12 +69,12 @@ tr{
     font-style: italic;
 }
 
-.container1{
+/* .container1{
     font-weight: bolder;
     color-adjust: inherit;
     color: rgb(5, 10, 83);
     background-color: rgba(0, 0, 0, 0);
-}
+} */
 
 .cuadro{
     border: 3px solid black;
@@ -85,7 +85,7 @@ tr{
     align-items: center;
 }
 
-img{
+.box img{
     width: 100px;
     height: 100px;
 }

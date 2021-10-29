@@ -1,4 +1,6 @@
 .table{
     color: red;
     font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
 }
